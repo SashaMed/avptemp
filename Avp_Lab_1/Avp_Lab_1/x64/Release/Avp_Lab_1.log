@@ -1,0 +1,49 @@
+﻿cl : командная строка  warning D9025: переопределение "/fp:precise" на "/fp:fast"
+  Avp_Lab_1.cpp
+  Создание кода
+  
+  --- Анализ функции: double * __ptr64 * __ptr64 * __ptr64 * __ptr64 __cdecl memoryInit(void)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(44) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(41) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(38) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl matrixInit(double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(62) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(60) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(58) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(56) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl mulSubMatrix(double * __ptr64 * __ptr64 __restrict,double * __ptr64 * __ptr64 __restrict,double * __ptr64 * __ptr64 __restrict)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(181) : info C5001: векторизированный цикл
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(178) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(176) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl matrixMulWithoutVectorization(double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(147) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(146) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(145) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(144) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(143) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(142) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl matrixMulWithSSE(double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(78) : info C5002: цикл не векторизирован по следующей причине: "1204"
+  
+  --- Анализ функции: void __cdecl matrixMulWithVectorization(double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64,double * __ptr64 * __ptr64 * __ptr64 * __ptr64)
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(198) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(196) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(194) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: main
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(62) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(60) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(58) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(56) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(198) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(196) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\education\3_course\6_sem\AVP\Avp_Lab_1\Avp_Lab_1\Avp_Lab_1.cpp(194) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  7 of 30 functions (23.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Avp_Lab_1.vcxproj -> D:\education\3_course\6_sem\AVP\Avp_Lab_1\x64\Release\Avp_Lab_1.exe
